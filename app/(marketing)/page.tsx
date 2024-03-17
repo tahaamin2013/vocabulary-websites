@@ -29,7 +29,7 @@ export default function Home() {
             <SignedOut>
               <SignUpButton
                 mode="modal"
-                afterSignInUrl="/learn"
+              afterSignInUrl="/learn"
                 afterSignUpUrl="/learn"
               >
                 <Button size="lg" variant="secondary" className="w-full text-white">
